@@ -2,7 +2,7 @@
 
 The Open Data Toolkit is a library for open-source data processing tools to create language model training datasets. This library will integrate [PleIAs](https://huggingface.co/PleIAs)'s existing tools seamlessly into a variety of pipelines. This will also make our tools more readily available to a broader range of users. 
 
-## Tools
+## Existing Tools
 
 *  [OCRonos](https://huggingface.co/PleIAs/OCRonos): an OCR correction model, which removes artifacts from digitization, drastically improving text quality
 *  [OCRerrcr](https://huggingface.co/PleIAs/OCRerrcr): OCR error detection model for estimating OCR quality and highlighting errors
