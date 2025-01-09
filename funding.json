@@ -4,10 +4,10 @@
         "type": "organisation",
         "role": "owner",
         "name": "PleIAs",
-        "email": "anastasia@pleias.fr ",
+        "email": "anastasia@pleias.fr",
         "description": "PleIAs is a Paris-based start-up developing open-source language models for document processing and enterprise applications. Last year, PleIAs released the largest open dataset for pretraining language models - CommonCorpus. We also released the first fully open source LLMs (open weights, open code, open data with permissive licences only). In order to create the dataset and train our models, we developed novel open-source tools for data processing and dataset curation. We have done this work in collaboration with leading open-source AI community members such as HuggingFace, Eleuther AI, and the Allen Institute for AI (Ai2). ",
         "webpageUrl": {
-            "url": "https://https://pleias.fr/",
+            "url": "https://pleias.fr/",
             "wellKnown": ""
         }
     },
@@ -25,17 +25,17 @@
         "tags": ["data-processing", "digitization", "datasets", "python-library"]
     }
    ],
-    "funding": [{
-        "channels": [
-            {
-                "guid": "mybank",
-                "type": "bank",
-                "address": "",
-                "description": "Will accept direct bank transfers. Please e-mail me for details."
-            }
-        	]
-    	}
-    	],
+	"funding": [{
+	    "channels": [
+	        {
+	            "guid": "mybank",
+	            "type": "bank",
+	            "address": "",
+	            "description": "Will accept direct bank transfers. Please e-mail me for details."
+	        }
+	    	]
+	    }
+	],
         "plans": [
            {
                 "guid": "developer-time",
