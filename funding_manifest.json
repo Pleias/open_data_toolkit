@@ -22,7 +22,7 @@
             "url": "https://github.com/Pleias/open_data_toolkit"
         },
         "licenses": ["Apache 2.0"],
-        "tags": ["data-processing", "digitization", "datasets", “python-library”]
+        "tags": ["data-processing", "digitization", "datasets", "python-library"]
     },
    ],
     "funding": {
