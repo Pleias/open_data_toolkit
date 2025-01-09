@@ -7,14 +7,14 @@
         "email": "anastasia@pleias.fr",
         "description": "PleIAs is a Paris-based start-up developing open-source language models for document processing and enterprise applications. Last year, PleIAs released the largest open dataset for pretraining language models - CommonCorpus. We also released the first fully open source LLMs (open weights, open code, open data with permissive licences only). In order to create the dataset and train our models, we developed novel open-source tools for data processing and dataset curation. We have done this work in collaboration with leading open-source AI community members such as HuggingFace, Eleuther AI, and the Allen Institute for AI (Ai2). ",
         "webpageUrl": {
-            "url": "https://pleias.fr/",
+            "url": "https://github.com/Pleias",
             "wellKnown": ""
         }
     },
     "projects": [{
         "guid": "open-data-toolkit",
         "name": "Open Data Toolkit",
-        "description": "Open data is the most crucial missing link to create truly open-source AI. Without sufficient high-quality open data, open-source AI cannot be competitive with closed-source AI models.  We are creating a complete open-source ecosystem for language model development.  \n\n While there are several large open datasets through initiatives like our Common Corpus, as well as datasets released by HuggingFace and Ai2, there are very few open tools for data processing. These tools are the key to unlocking new data sources, enabling comparable capabilities to frontier models. However, state-of-the-art processing tools are currently largely closed and proprietary. PleIAs’s Open Data Toolkit consists of tools that enable users to process, filter, and curate datasets for a wide variety of uses, including training LLMs. \n\n Our existing tools include OCR correction models, vision-language models for PDF parsing, models for structuring text (e.g. formatting headlines and fixing paragraph structure), data quality filtering, and toxic data detection. The Open Data Toolkit project will consist of updated versions of these tools and novel tools, including open-source synthetic data and structured data generation models. \n\n In order to make these models accessible to users with varying levels of technical training, we will release our toolkit as a package, so that the tools can be easily incorporated into a variety of pipelines. \n\n All our tools are trained on open data, meeting the highest levels of compliance with regulation such as the EU AI Act. Therefore, these tools are suitable for both research and commercial use. Our tools are also small and efficient, making them suitable for application at scale and for users with limited computational resources. Our tools are also multilingual, making them useful and accessible to a wider range of users. These tools will increase the amount of available open data, which contributes to the open-source community. The Open Data Toolkit is part of PleIAs’s goal to push the boundaries of openness in AI beyond just open-weight models to a fully open development pipeline. ",
+        "description": "Open data is the most crucial missing link to create truly open-source AI. Without sufficient high-quality open data, open-source AI cannot be competitive with closed-source AI models.  We are creating a complete open-source ecosystem for data procesing.  \n\n While there are several large open datasets through initiatives like our Common Corpus, there are very few open tools for data processing. These tools are the key to unlocking new data sources, enabling comparable capabilities to frontier models. Currently, most of these tools are closed and proprietary. \n\n PleIAs’s Open Data Toolkit consists of tools that enable users to process, filter, and curate datasets for a wide variety of uses, including training LLMs. Our existing tools include OCR correction models, vision-language models for PDF parsing, models for structuring text (e.g. formatting headlines and fixing paragraph structure), data quality filtering, and toxic data detection. We are seeking support to create updated versions of these tools and to create a cohesive library for these tools. This will make these models accessible to users with varying levels of technical training, and will enable them to be easily incorporated into a variety of pipelines. \n\n All our tools are trained on open data, meeting the highest levels of compliance with regulation such as the EU AI Act. Therefore, these tools are suitable for both research and commercial use. Our tools are also small and efficient, making them suitable for application at scale and for users with limited computational resources. Our tools are also multilingual, making them useful and accessible to a wider range of users. These tools will increase the amount of available open data, which contributes to the open-source community. The Open Data Toolkit is part of PleIAs’s goal to push the boundaries of openness in AI beyond just open-weight models to a fully open development pipeline.",
         "webpageUrl": {
             "url": "https://github.com/Pleias/open_data_toolkit"
         },
@@ -25,17 +25,15 @@
         "tags": ["data-processing", "digitization", "datasets", "python-library"]
     }
    ],
-	"funding": [{
+    "funding": {
 	    "channels": [
-	        {
-	            "guid": "mybank",
-	            "type": "bank",
-	            "address": "",
-	            "description": "Will accept direct bank transfers. Please e-mail me for details."
-	        }
-	    	]
-	    }
-	],
+		{
+		    "guid": "mybank",
+		    "type": "bank",
+		    "address": "",
+		    "description": "Will accept direct bank transfers. Please e-mail me for details."
+		}
+		],
         "plans": [
            {
                 "guid": "developer-time",
@@ -73,13 +71,12 @@
                 "name": "Goodwill plan",
                 "description": "Pay anything you wish to show your goodwill for the project.",
                 "amount": 0,
-                "currency": "USD",
+                "currency": "EUR",
                 "frequency": "one-time",
                 "channels": ["mybank"]
-            }
-        ],
+            }],
         "history": [
-            {"year": 2024, "income": 150000, "expenses": 120000, "taxes": 0, "currency": "USD", "description": "Received Mozilla Local AI grant and French Ministry of Culture for developing CommonCorpus, the largest open source dataset for LLM training."}
+            {"year": 2024, "income": 150000, "expenses": 120000, "taxes": 0, "currency": "EUR", "description": "Received Mozilla Local AI grant and French Ministry of Culture for developing CommonCorpus, the largest open source dataset for LLM training."}
         ]
 }
-
+}
