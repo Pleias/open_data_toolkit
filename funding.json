@@ -23,7 +23,7 @@
         },
         "licenses": ["Apache 2.0"],
         "tags": ["data-processing", "digitization", "datasets", "python-library"]
-    },
+    }
    ],
     "funding": {
         "channels": [
