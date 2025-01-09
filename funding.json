@@ -34,6 +34,7 @@
                 "description": "Will accept direct bank transfers. Please e-mail me for details."
             }
         ],
+    		},
         "plans": [
            {
                 "guid": "developer-time",
